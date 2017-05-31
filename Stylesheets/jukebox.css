@@ -1,0 +1,78 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+/* Navbar */
+nav {
+  background-color: rgba(255, 255, 255, 1);
+  min-height: 64px;
+}
+.material-icons {
+  vertical-align: middle;
+  margin-top: 5px;
+}
+nav ul li a {
+  color: rgb(0, 0, 0);
+  font-family: 'Comfortaa', cursive;
+  font-size: 18px;
+}
+#sidenav-overlay {
+    background-color: transparent;
+}
+nav img {
+  height: 60px;
+  width: 60px;
+  align-items: center;
+  margin-top: 2px;
+}
+/* End Of Navbar */
+
+/* Parallax */
+@media only screen and (max-width: 480px) {
+.parallax-desktop {display:none}
+.parallax-mobile {display: block}
+}
+
+/* Special Rules for Desktops */
+@media only screen and (min-width: 1024px) {
+.parallax-desktop {display:block}
+.parallax-mobile  {display: none}
+}
+
+.parallax-desktop {
+  min-height: 500px;
+}
+
+/* Heading */
+h1{
+  font-family: 'Neucha', cursive;
+  font-size: 100px;
+}
+h2{
+  font-family: 'Bad Script', cursive;
+  font-size: 40px;
+  color: rgb(31, 31, 31);
+}
+iframe{
+  margin:10px;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+/*Footer */
+footer .section {
+  min-height: 200px;
+}
+footer img {
+  margin-top: 25px;
+  height: 50px;
+}
+h3 {
+  color: rgb(0, 0, 0);
+  font-family: 'Comfortaa',cursive;
+  font-size: 30px;
+}
